@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    color: rgb(65, 22, 221);
+    background: black;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+.spacer{
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.layer1{
+    background-image: url("layer1.svg")
+}
+.Rights{
+    display : flex;
+    bottom: 0;
+    justify-content: center;
+}
+.image-container {
+    border-color: white;
+    width: 200px;
+    height: 200px; 
+    background-image: url("/Website/Image/Final.jpg");
+    background-size: cover;
+    transition: background-image 1.0s ease;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+.image-container:hover {
+    width: 200px;
+    height: 200px;
+    background-image: url("/Website/Image/Initial.jpg");
+}
+h3:hover{
+    font-size: 18px;
+    color: rgb(35, 190, 190);
+    text-decoration: underline;
+    }
+.image-container-01 {
+    display: flex;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.image-div-1:hover{
+    color: green;
+}
+.image-div-2:hover{
+    color: green;
+}
+.image-div-3:hover{
+    color: green;
+}
+.image-div-4:hover{
+    color: green;
+}
+.image-div-5:hover{
+    color: green;
+}
+.image-div-6:hover{
+    color: green;
+}
+.image-div-7:hover{
+    color: green;
+}
+.image-div-8:hover{
+    color: green;
+}
