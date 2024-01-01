@@ -31,7 +31,7 @@ section{
     border-color: white;
     width: 200px;
     height: 200px; 
-    background-image: url("/Image/Final.jpg");
+    background-image: url("Image/Final.jpg");
     background-size: cover;
     transition: background-image 1.0s ease;
     margin-bottom: 30px;
@@ -41,7 +41,7 @@ section{
 .image-container:hover {
     width: 200px;
     height: 200px;
-    background-image: url("/Image/Initial.jpg");
+    background-image: url("Image/Initial.jpg");
 }
 h3:hover{
     font-size: 18px;
