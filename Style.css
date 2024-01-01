@@ -1,16 +1,16 @@
+
 body{
     margin: 0;
     font-family: monospace;
     color: rgb(65, 22, 221);
-    background: black;
+    background-color:black;
 }
 section{
+    color: white;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 400px;
-    padding: 100px 20vw;
 }
 .spacer{
     display: flex;
@@ -19,10 +19,10 @@ section{
     background-position:center;
     background-size: cover;
 }
-.layer1{
-    background-image: url("layer1.svg")
-}
 .Rights{
+    background-color:wheat;
+    margin-top: 40px;
+    font-weight: 600;
     display : flex;
     bottom: 0;
     justify-content: center;
@@ -31,7 +31,7 @@ section{
     border-color: white;
     width: 200px;
     height: 200px; 
-    background-image: url("/Website/Image/Final.jpg");
+    background-image: url("/Image/Final.jpg");
     background-size: cover;
     transition: background-image 1.0s ease;
     margin-bottom: 30px;
@@ -41,7 +41,7 @@ section{
 .image-container:hover {
     width: 200px;
     height: 200px;
-    background-image: url("/Website/Image/Initial.jpg");
+    background-image: url("/Image/Initial.jpg");
 }
 h3:hover{
     font-size: 18px;
@@ -49,33 +49,22 @@ h3:hover{
     text-decoration: underline;
     }
 .image-container-01 {
-    display: flex;
-    text-align: center;
+    text-overflow: clip;
+    text-align:center;
+    position: relative;
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
 }
-.image-div-1:hover{
-    color: green;
+.image-div-1,.image-div-2,.image-div-3,.image-div-4,.image-div-6,.image-div-5,.image-div-8,.image-div-7{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.image-div-2:hover{
-    color: green;
+.image-div-1:hover,.image-div-2:hover,.image-div-3:hover,.image-div-4:hover,.image-div-6:hover,.image-div-5:hover,.image-div-8:hover,.image-div-7:hover{
+    color: violet;
 }
-.image-div-3:hover{
-    color: green;
-}
-.image-div-4:hover{
-    color: green;
-}
-.image-div-5:hover{
-    color: green;
-}
-.image-div-6:hover{
-    color: green;
-}
-.image-div-7:hover{
-    color: green;
-}
-.image-div-8:hover{
-    color: green;
+.sec2:hover{
+    color: aqua;
 }
