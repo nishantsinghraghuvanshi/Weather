@@ -46,7 +46,6 @@ section{
 h3:hover{
     font-size: 18px;
     color: rgb(35, 190, 190);
-    text-decoration: underline;
     }
 .image-container-01 {
     text-overflow: clip;
